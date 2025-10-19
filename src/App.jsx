@@ -31,6 +31,7 @@ function App() {
 
   <Routes>
       <Route path='/' element={<Dashboard/>}/>
+      <Route index element={<Dashboard/>}/>
       <Route path='/team' element={<ManageTeam theme={theme}/>}/>
        <Route path='/contacts' element={<ContactsInformation theme={theme}/>}/>
        <Route path='/invoices' element={<InvoicesBalances theme={theme}/>}/>
