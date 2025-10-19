@@ -350,7 +350,7 @@ const nivoTheme = {
            <Box sx={{width:{xs:'100%',md:'35%'} ,height:'100%',overflow:'auto'}}>
             <Paper sx={{padding:2 ,fontSize:28,color:'red',marginBottom:2,position:'sticky',top:'-1px'}} >Recent Transaction</Paper>
              {Transactions.map((item)=>{
-              return (<Paper  sx={{padding:2 ,color:'red',marginBottom:1,display:'flex',justifyContent:'space-between' ,color:theme.palette,fontSize:{xs:12,md:18},alignItems:'center'}} >
+              return (<Paper  sx={{padding:2 ,marginBottom:1,display:'flex',justifyContent:'space-between' ,color:theme.palette,fontSize:{xs:12,md:18},alignItems:'center'}} >
               <Box>{item.user} <span style={{fontSize:'12px',color:theme.palette.primary.main,display:'block'}}>ID:{item.txId}</span></Box>
               <Box> {item.date}</Box>
               <Box sx={{padding:'5px 10px',background:'red',borderRadius:4}}>${item.cost}</Box>
