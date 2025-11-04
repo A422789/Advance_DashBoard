@@ -177,7 +177,7 @@ const nivoTheme = {
           variant={"h4"} 
           fontWeight="bold"
         >
-         DASHBOARDE
+         DASHBOARD
         </Typography>
         <Typography variant={ "body1"}>
           Welcome to your Dashboard
